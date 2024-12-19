@@ -1,0 +1,1 @@
+The solution is to use strict comparison (`===`) instead of loose comparison (`==`). Strict comparison checks for both value and type equality, preventing unintended type coercion.  This ensures that only values of the same type and value are considered equal.
